@@ -1,0 +1,24 @@
+# Visual theme for the Police Requests Dashboard (same colours as the presentation).
+# Streamlit reads this file when the app is started from the team_project folder.
+
+[theme]
+base = "light"
+primaryColor = "#4F29B7"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F6FA"
+textColor = "#1B2A41"
+borderColor = "#E2E6EE"
+showWidgetBorder = true
+baseRadius = "0.6rem"
+headingFontWeights = [700, 650, 600]
+metricValueFontWeight = 700
+dataframeHeaderBackgroundColor = "#EEF1F6"
+showSidebarBorder = true
+
+[theme.sidebar]
+backgroundColor = "#F4F6FA"
+secondaryBackgroundColor = "#FFFFFF"
+
+[client]
+toolbarMode = "minimal"          # hide the Deploy button during the demo
+showSidebarNavigation = false    # the sidebar shows named page links instead (dash_style.sidebar_brand)
